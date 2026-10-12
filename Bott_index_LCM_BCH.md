@@ -13,7 +13,7 @@
 博士论文使用的定义是
 
 $$
-B=\frac{1}{2\pi}\operatorname{Im}\operatorname{Tr}\log(VUV^\dagger U^\dagger),
+B=\frac{1}{2\pi}\mathrm{Im}\mathrm{Tr}\log(VUV^\dagger U^\dagger),
 $$
 
 其中
@@ -325,7 +325,7 @@ $$
 
 $$
 \mathfrak C(\boldsymbol r)
-=2\pi\operatorname{Im}\langle\boldsymbol r|
+=2\pi\mathrm{Im}\langle\boldsymbol r|
 P\hat xP\hat yP-P\hat yP\hat xP
 |\boldsymbol r\rangle.
 $$
@@ -341,7 +341,7 @@ $$
 $$
 \boxed{
 \mathfrak C(\boldsymbol r)
-=2\pi\operatorname{Im}
+=2\pi\mathrm{Im}
 \langle\boldsymbol r|[X_P,Y_P]|\boldsymbol r\rangle.
 }
 $$
@@ -359,7 +359,7 @@ $$
 
 $$
 \mathfrak C(\boldsymbol r)
-=2\pi\operatorname{Im}\langle\boldsymbol r|
+=2\pi\mathrm{Im}\langle\boldsymbol r|
 [X_P,Y_P]|\boldsymbol r\rangle.
 $$
 
@@ -374,7 +374,7 @@ Bott index 通过指数算符的闭合乘积描述全局拓扑性质；LCM 则�
 但**不能仅凭 BCH 形式展开就断言完整 Bott index 等于 LCM 的 bulk 平均**。有限维空间中有
 
 $$
-\operatorname{Tr}[X_P,Y_P]=0,
+\mathrm{Tr}[X_P,Y_P]=0,
 $$
 
 而 Bott index 可以非零。这还涉及矩阵对数的分支信息，以及合适的有限尺寸、局域性等条件。
@@ -393,7 +393,7 @@ VUV^\dagger U^\dagger
 \sim e^{+\epsilon_x\epsilon_y[X_P,Y_P]}\\[5pt]
 \Downarrow\\[5pt]
 \mathfrak C(\boldsymbol r)
-=2\pi\operatorname{Im}
+=2\pi\mathrm{Im}
 \langle\boldsymbol r|[X_P,Y_P]|\boldsymbol r\rangle
 \end{gathered}
 }
